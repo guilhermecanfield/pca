@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pca"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Canfield <guilherme.canfield87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+factor-analyzer = "^0.5.1"
+sympy = "^1.13.3"
+pingouin = "^0.5.5"
+pyshp = "^2.3.1"
+plotly = "^5.24.1"
+openpyxl = "^3.1.5"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
